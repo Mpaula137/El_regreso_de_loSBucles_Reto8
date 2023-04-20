@@ -128,8 +128,8 @@ def seriemac(x,n):
 if __name__ == "__main__":  #Funcion principal
  x = float(input("Ingrese el valor de x:"))# se ingresa el valor de x
  n = int(input("Ingrese la cantidad de las series Maclaurin:"))# Se ingresa la cantidad de serie maclaurin
- print(exponencial(x)) # se imprime el exponencial de x
- print(seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
+ print("EL exponencial de x es:", exponencial(x)) # se imprime el exponencial de x
+ print("La aproximación de la serie mclaurin es:", seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
 ```
 ## Punto 9:
 Diseñar una función que permita calcular una aproximación de la función seno alrededor de 0 para cualquier valor x (real), utilizando los primeros n términos de la serie de Maclaurin. nota: use math para traer la función seno y mostrar la diferencia entre el valor real y la aproximación.
@@ -152,8 +152,8 @@ def seriemac(x,n):
 if __name__ == "__main__":  #Funcion principal
  x = float(input("Ingrese el valor de x:"))# se ingresa el valor de x
  n = int(input("Ingrese la cantidad de las series Maclaurin:"))# Se ingresa la cantidad de serie maclaurin
- print(seno(x)) # se imprime el seno de x
- print(seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
+ print("El seno de x es:", seno(x)) # se imprime el seno de x
+ print("La aproximación de la serie mclaurin es:", seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
 ```
 ## Punto 10:
 Diseñar una función que permita calcular una aproximación de la función arcotangente alrededor de 0 para cualquier valor x en el rango [-1, 1], utilizando los primeros n términos de la serie de Maclaurin. nota: use math para traer la función arctan y mostrar la diferencia entre el valor real y la aproximación.
@@ -173,8 +173,7 @@ def seriemc(x,n): # Se hace con la serie Maclaurin la aproximación
 if __name__ == "__main__":  #Funcion principal
  x= float(input("ingresar x entre -1 y 1: ")) # Se pide el valor de x entre -1 y 1
  n=int(input("ingresar cantidad de las serie de Maclaurin : ")) #Se pide la cantidad de la serie
- print(arcotan(x)) # Se imprime el valor "real"
- print(seriemc(x,n))  # Se imprime la aproximación
-```
+ print("El valor del arcotangente es:",arcotan(x)) # Se imprime el valor "real"
+ print("La aproximación de la serie mclaurin es:", seriemc(x,n))  # Se imprime la aproximación
 ## Hasta aqui el recorrido 😝☺️
 
