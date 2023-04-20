@@ -2,7 +2,8 @@
 La segunda parte de bucles, son ejemplos de como entendimos el bucle for
 ## Punto 1:
 - Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
-Explicación: Utilizams el ciclo for y luego colocamos la intencion de cada iteación en la impresión
+###  Explicación: ###
+Utilizams el ciclo for y luego colocamos la intencion de cada iteación en la impresión
 ```
 #Este programa imprime el cuadrado de los numero desde el 1 al 100
 
@@ -13,7 +14,8 @@ for n in range(1, 101): #colocamos el rango hasta 101 ya que este va de forma (n
  ```
  ## Punto 2:
  - Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
- Explicación: Use el ciclo for ajustando el rango y la forma en la que aun¿menta para crear una lista de pares e impares
+ ### Explicación: ###
+ Use el ciclo for ajustando el rango y la forma en la que aun¿menta para crear una lista de pares e impares
  ```
  #Imprime los numeros de 1 a 999 usando un ciclo for(sabiendo que cuando aunmenta ( muestra los numeros impares)
 for i in range(1,1000, 2):
@@ -25,7 +27,8 @@ for i in range(2, 1001, 2):
  ```
  ## Punto 3:
  - Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado.
- Explicación: Primero investigue para poder guiarme luego encontre que el usuario debe ingresar el numero despues se agrega la condición donde i debe ser mayor o igual  a 2, ponemos en rango y el descenso dentro del ranfo luego colocamos la condicion que debe cumplir el numero al que se descendio para imprimirse. 
+ ### Explicación: ###
+ Primero investigue para poder guiarme luego encontre que el usuario debe ingresar el numero despues se agrega la condición donde i debe ser mayor o igual  a 2, ponemos en rango y el descenso dentro del ranfo luego colocamos la condicion que debe cumplir el numero al que se descendio para imprimirse. 
  ```
  #se le pide al usuario que ingrese un numero mayor o igual a 2 con la funcion imput
 i =int(input("Ingrese un numero mayor o igual a 2:"))
@@ -41,7 +44,8 @@ else:
  ```
  ## Punto 4:
  -  Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.
- Explicación: tenemos que llamar a la funcion factorial, en esta misma entablamos las condiciones adecuadas. Luego usamos la funcion name, interactuamos con el usuario y colocamos el condicional el cual dice que n debe ser mayor a 0 y se pone el buble for para decir que va desde 1 hasta n+1 y se imprime. 
+### Explicación: ###
+Tenemos que llamar a la funcion factorial, en esta misma entablamos las condiciones adecuadas. Luego usamos la funcion name, interactuamos con el usuario y colocamos el condicional el cual dice que n debe ser mayor a 0 y se pone el buble for para decir que va desde 1 hasta n+1 y se imprime. 
  ```
  def factorial(n):
     """
@@ -62,7 +66,8 @@ else:
  ```
  ## Punto 5:
  -  Calcular el valor de 2 elevado a la potencia n usando ciclos for.
- Explicación: inicializamos una variable con el valor que de el usuario otra la inicializamos en 1 luego declaramos el for para el rango n es decir que lo que queramos realizar pase3 por todo ese rango, luego decimos que la variable igual mientras aunmente sera multiplicado 2.
+ ### Explicación: ###
+Inicializamos una variable con el valor que de el usuario otra la inicializamos en 1 luego declaramos el for para el rango n es decir que lo que queramos realizar pase3 por todo ese rango, luego decimos que la variable igual mientras aunmente sera multiplicado 2.
  ```
  #Este programa se creo para obtener a 2 elevado n veces
 n = int (input("Ingrese un numero natural :"))#declaramos la variable num la cual el usuario va a ingresar
@@ -75,7 +80,8 @@ print("el resultado de 2 elevado a la portencia", n, "es:", igual)
  ```
  ## Punto 6:
  - Leer un número natural n, leer otro dato de tipo real x y calcular x^n usando ciclos for.
- Explicación: inicalizamod dos variables segun el valor que coloque el usuario usamos el mismo procedimiento que en el anterior punto solo que esta vez las dos las colocara el usuario el for lo colocamos para una variabe i en el rango de n allí dice que resultado que la inicalizamos en 1 y aumenta segun el valor de n se expresa para que```
+### Explicación: ###
+Inicalizamod dos variables segun el valor que coloque el usuario usamos el mismo procedimiento que en el anterior punto solo que esta vez las dos las colocara el usuario el for lo colocamos para una variabe i en el rango de n allí dice que resultado que la inicalizamos en 1 y aumenta segun el valor de n se expresa para que```
  x se multiplique esas veces.
  ```
  #Este programa permite obtener a x elevado n veces
@@ -90,7 +96,8 @@ print(x,"Elevado a potencia", n, "es:", resultado)
  ```
  ## Punto 7:
  - Diseñe un programa que muestre las tablas de multiplicar del 1 al 9.
- Explicación: En el ejemplo de abajo solo coloque la de la primera tabla ya que la metodología es la misma para todas las tablas, yo empece inializando una variable en o para tener el valor de las iteraciones liego cree el rango en donde se pone el primer multiplo y el multiplo de la multiplicación del numero por 11 luego se suma la cantidad de ves que sea necesario para crear la tabla como a continuación.
+ ### Explicación: ###
+En el ejemplo de abajo solo coloque la de la primera tabla ya que la metodología es la misma para todas las tablas, yo empece inializando una variable en o para tener el valor de las iteraciones liego cree el rango en donde se pone el primer multiplo y el multiplo de la multiplicación del numero por 11 luego se suma la cantidad de ves que sea necesario para crear la tabla como a continuación.
  ```
  #Este programa permite identificar todas las tablas del 2 al 9 
 iteracion=0 #esto permite crear el numero de iteracion
@@ -99,4 +106,75 @@ for i in range(2,22,2): # Creo el ciclo for para que se recorran los en el rango
     print("iteracion numero",iteracion, "de la tabla del 2:", i)
 
  ```
- 
+## Punto 8:
+Diseñar una función que permita calcular una aproximación de la función exponencial alrededor de 0 para cualquier valor x (real), utilizando los primeros n términos de la serie de Maclaurin. nota: use math para traer la función exponencial y mostrar la diferencia entre el valor real y la aproximación.
+### Explicación: ###
+Declaramos las funciones que usaremos las cuales son exponencial, factorial y la serie maclaurin. Luego las llamaremos para hacer uso de ellas claramente despues de haber interactuado con el usuario.
+```
+import math #Importamos de la libreria math
+def exponencial(x):
+    return math.exp(x)
+def factorial(n:int): #Funcion para factorial
+    i = 1
+    for m in range(1, n+1):
+        i*=m
+    return i
+def seriemac(x,n):
+    l=0
+    for i in range (n+1): #se coloca la formula de la seria maclaurin
+         l+= (x**i)/factorial(i)
+    return l
+
+if __name__ == "__main__":  #Funcion principal
+ x = float(input("Ingrese el valor de x:"))# se ingresa el valor de x
+ n = int(input("Ingrese la cantidad de las series Maclaurin:"))# Se ingresa la cantidad de serie maclaurin
+ print(exponencial(x)) # se imprime el exponencial de x
+ print(seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
+```
+## Punto 9:
+Diseñar una función que permita calcular una aproximación de la función seno alrededor de 0 para cualquier valor x (real), utilizando los primeros n términos de la serie de Maclaurin. nota: use math para traer la función seno y mostrar la diferencia entre el valor real y la aproximación.
+### Explicación: ###
+Sucede lo mismo que el anterior solo que no usaremos el exponencial sino el seno de x, luego las llmaremos despues de que el usuario interactue.
+```
+import math
+def seno(x): #funcion para seno
+    return math.sin(x)
+def factorial(n:int): #Funcion para factorial
+    i = 1
+    for m in range(1, n+1):
+        i*=m
+    return i
+def seriemac(x,n):
+    l=0
+    for i in range (n+1): #se coloca la formula de la seria maclaurin
+         l+= (-1)**i * x**(2*i + 1) / factorial(2*i + 1)
+    return l
+if __name__ == "__main__":  #Funcion principal
+ x = float(input("Ingrese el valor de x:"))# se ingresa el valor de x
+ n = int(input("Ingrese la cantidad de las series Maclaurin:"))# Se ingresa la cantidad de serie maclaurin
+ print(seno(x)) # se imprime el seno de x
+ print(seriemac(x,n)) # se imprime la aproximacion con la serie maclaurin
+```
+## Punto 10:
+Diseñar una función que permita calcular una aproximación de la función arcotangente alrededor de 0 para cualquier valor x en el rango [-1, 1], utilizando los primeros n términos de la serie de Maclaurin. nota: use math para traer la función arctan y mostrar la diferencia entre el valor real y la aproximación.
+### Explicación: ###
+Hacemos uso de la biblioteca math ya que en esta ocacion usaremos el arco de la tangente en la seria maclaurin, realizamos el mismo procedimiento que las veces pasadas para interactuar con los usuarios y obtener la aproximación.
+
+```
+import math
+def arcotan(x):
+    return math.atan(x)
+def seriemc(x,n): # Se hace con la serie Maclaurin la aproximación
+    l=0
+    for i in range(n+1):
+        l += ((-1)**i)*(x**((2*i)+1))/((2*i)+1)
+    return l
+
+if __name__ == "__main__":  #Funcion principal
+ x= float(input("ingresar x entre -1 y 1: ")) # Se pide el valor de x entre -1 y 1
+ n=int(input("ingresar cantidad de las serie de Maclaurin : ")) #Se pide la cantidad de la serie
+ print(arcotan(x)) # Se imprime el valor "real"
+ print(seriemc(x,n))  # Se imprime la aproximación
+```
+## Hasta aqui el recorrido 😝☺️
+
